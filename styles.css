@@ -24,7 +24,7 @@ body { /* applies to all content unless overwritten */
 
 h1, h2 {
   font-family: 'Chancery';
-  color: #166088;
+  color: #D294aa;
 }
 
 h1 {
@@ -95,7 +95,7 @@ nav a:hover { /* adds an underline when user hovers over link */
 .btn {
   color: #D294aa;
   text-decoration: none; /* removes underline */
-  background: #CDC6A5;
+  background:#93c8d2
 }
 
 .download {
@@ -178,7 +178,7 @@ h3 ~ p {
 
 #education {
   /* the colour used in the rgb values below is #8D9F87 */
-  background: linear-gradient(rgba(141, 159, 135, 0.7), rgba(141, 159, 135, 0.7)), url(Resources/education-background.jpg) no-repeat fixed;
+  background: linear-gradient(#93c8d2, #93c8d2), url(Resources/education-background.jpg) no-repeat fixed;
   background-size: cover; 
 }
 
