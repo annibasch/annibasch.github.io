@@ -4,3 +4,12 @@
   height: 50px;
   border-radius: 50%;
 }
+
+.col-narrow { /* these 4 rules create 2 columns in whatever div they are contained in, one narrow and one wide */
+  width: 33.34%;
+  float: left;
+}
+.col-wide { /* both of these are floated to the left to align with each other and are cleared after since they are always contained in a "centered-content" div */
+  width: 66.66%;
+  float: left;
+}
