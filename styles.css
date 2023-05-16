@@ -49,7 +49,7 @@ h2 {
 .col-narrow { /* these 4 rules create 2 columns in whatever div they are contained in, one narrow and one wide */
   width: 33.34%;
   float: left;
-  padding:0px 15x;
+  padding:15px;
 }
 .col-wide { /* both of these are floated to the left to align with each other and are cleared after since they are always contained in a "centered-content" div */
   width: 66.66%;
