@@ -8,14 +8,14 @@ html { /* the following 2 rules implement a border-box "fix" */
 }
 
 body { /* applies to all content unless overwritten */
-  color: #D294aa;
-  font-family: 'Open Sans', sans-serif;
+  color:#166088;
+  font-family: 'Chancery', sans-serif;
   margin: 0; /* leaves no white border around the content */
 }
 
 #toTop {
   font-size: 50px;
-  color: #D294aa;  /* need to set the colour of this bc it defaults to colour of links */
+  color:  #166088; /* need to set the colour of this bc it defaults to colour of links */
   text-decoration: none; /* remvoes underline */
   position: fixed; /* fixes it to a certain spot on the screen */
   right: 50px;
@@ -80,7 +80,7 @@ nav {
 }
 
 nav a {
-  color: #D294aa;  /* need to set the colour of these bc they default to colour of links */
+  color:  white; /* need to set the colour of these bc they default to colour of links */
   padding: 1rem; /* helps to space out the nav links */
   display: inline-block;  /* ensures that the padding is added properly, since they are originally links (inline) */
   font-size: 1rem;
@@ -93,7 +93,7 @@ nav a:hover { /* adds an underline when user hovers over link */
 }
 
 .btn {
-  color: #D294aa;
+  color:#166088;
   text-decoration: none; /* removes underline */
   background:#93c8d2
 }
@@ -143,7 +143,7 @@ footer a:hover {
 /* Experience */
 
 #experience {
-  background: #CDC6A5;
+  background:#cfb9c1
 }
 
 h3 ~ p {
