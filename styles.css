@@ -9,7 +9,7 @@ html { /* the following 2 rules implement a border-box "fix" */
 
 body { /* applies to all content unless overwritten */
   color:#166088;
-  font-family: 'Chancery', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0; /* leaves no white border around the content */
 }
 
