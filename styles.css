@@ -1,8 +1,46 @@
-.avatar {
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+/* Global Styles */
+
+html { /* the following 2 rules implement a border-box "fix" */
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body { /* applies to all content unless overwritten */
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0; /* leaves no white border around the content */
+}
+
+#toTop {
+  font-size: 50px;
+  color: black; /* need to set the colour of this bc it defaults to colour of links */
+  text-decoration: none; /* remvoes underline */
+  position: fixed; /* fixes it to a certain spot on the screen */
+  right: 50px;
+  bottom: 0;
+}
+
+h1, h2 {
+  font-family: 'Courgette', cursive;
+  color: #166088;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-top: 0; /* to give an appropiate space between the top of headings and the start of new colour for section */
+}
+
+.centered-content { /* centers the div with this class name with the background/screen */
+  max-width: 60em; /* about 950px */
+  margin: 0 auto; /* sets the top and bottom margins to 0, and the right and left to half of the screen width miuns element width (ultimately centering it) */
+  padding: 50px; /* "pushes" the content 50px more towards the center from all directions */
+  overflow: auto; /* self-clears anytime I add a float to a "centered-content" section */
 }
 
 .col-narrow { /* these 4 rules create 2 columns in whatever div they are contained in, one narrow and one wide */
@@ -12,4 +50,15 @@
 .col-wide { /* both of these are floated to the left to align with each other and are cleared after since they are always contained in a "centered-content" div */
   width: 66.66%;
   float: left;
+}
+
+.uppercase { /* the text in div's with this class name all become uppercase */
+  text-transform: uppercase;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
