@@ -56,9 +56,84 @@ h2 {
   text-transform: uppercase;
 }
 
-.avatar {
-  vertical-align: middle;
-  width: 40%;
-  height: auto;
-  border-radius: 10%;
+/* Header and Footer */
+
+header, footer {
+  background: #6F9283;
+}
+
+header {
+  padding-top: 10px; /* makes sure the nav does not cover the image in the header */
+}
+
+nav {
+  background: #6F9283;
+  text-align: center;
+  font-size: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden; /* self-clear */
+}
+
+nav a {
+  color: black; /* need to set the colour of these bc they default to colour of links */
+  padding: 1rem; /* helps to space out the nav links */
+  display: inline-block;  /* ensures that the padding is added properly, since they are originally links (inline) */
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none; /* removes the underline */
+}
+
+nav a:hover { /* adds an underline when user hovers over link */
+  text-decoration: underline;
+}
+
+.btn {
+  color: black;
+  text-decoration: none; /* removes underline */
+  background: #CDC6A5;
+}
+
+.download {
+  position: absolute; /* will be contained in its positioned parent element. Allows it to bepositioned at the far side of the nav */
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+/* small personal aesthetic styles: */
+
+header h1, header h2 { 
+  margin: 0; /* overwrites the h2 margin style from before */
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 15px;
+}
+
+header p {
+  padding-top: 10px;
+}
+
+#profile-image {
+  max-width: 100%; 
+  border-radius: 50%; /* makes the image display as a circle */
+}
+
+footer {
+  text-align: center;
+}
+
+footer h2, footer p {
+  color: #166088;
+}
+
+footer a { /* the following two lines simply give a different type of styling to the links in the footer */
+  color: white;
+}
+footer a:hover {
+  text-decoration: none;
 }
