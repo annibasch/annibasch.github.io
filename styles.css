@@ -23,16 +23,18 @@ body { /* applies to all content unless overwritten */
 }
 
 h1, h2 {
-  font-family: 'Courgette', cursive;
+  font-family: 'Impact', cursive;
   color: #166088;
 }
 
 h1 {
   font-size: 3.5em;
+  color: #D294aa
 }
 
 h2 {
   font-size: 2.5em;
+  color: #D294aa;
   margin-top: 0; /* to give an appropiate space between the top of headings and the start of new colour for section */
 }
 
@@ -120,7 +122,7 @@ header p {
 
 #profile-image {
   max-width: 100%; 
-  border-radius: 50%; /* makes the image display as a circle */
+  border-radius: 75%; /* makes the image display with rounded corners */
 }
 
 footer {
@@ -136,4 +138,50 @@ footer a { /* the following two lines simply give a different type of styling to
 }
 footer a:hover {
   text-decoration: none;
+}
+
+/* Experience */
+
+#experience {
+  background: #CDC6A5;
+}
+
+h3 ~ p {
+  margin: 0; /* makes company and dates closer together, as well as degree and additional information in education */
+}
+
+.job {
+  display: none; /* by default, all jobs are set to not display */
+}
+
+.job.active {
+  display: block; /* when one job is called on, it displays */
+}
+
+.slide-changer {
+  font-size: 5rem;
+  margin: 7.5% auto; /* roughly, vertically aligns the slide change "buttons" */
+  cursor: pointer; /* makes the cursor change to a pointer so that the user knows they can click on it */
+}
+
+#left-slide {
+  float: left; /* allows itself to flow to the left of the work experience content */
+  margin-left: 2%;
+}
+
+#right-slide {
+  float: right; /* allows itslef to flow to the right of the work experience content */
+  margin-right: 2%;
+}
+
+/* Education */
+
+#education {
+  /* the colour used in the rgb values below is #8D9F87 */
+  background: linear-gradient(rgba(141, 159, 135, 0.7), rgba(141, 159, 135, 0.7)), url(Resources/education-background.jpg) no-repeat fixed;
+  background-size: cover; 
+}
+
+.designation {
+  margin-top: 0; /* to make the school and designation closer */
 }
