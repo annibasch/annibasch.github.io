@@ -167,21 +167,19 @@ h3 ~ p {
 }
 
 #left-slide {
-  float: left; /* allows itself to flow to the left of the work experience content */
+  float: inline-start; /* allows itself to flow to the left of the work experience content */
   margin-left: 2%;
 }
 
 #right-slide {
-  float: right; /* allows itslef to flow to the right of the work experience content */
+  float: inline-end; /* allows itslef to flow to the right of the work experience content */
   margin-right: 2%;
 }
 
 /* Education */
 
 #education {
-  /* the colour used in the rgb values below is #8D9F87 */
-  background: linear-gradient(#93c8d2, #93c8d2), url(Resources/education-background.jpg) no-repeat fixed;
-  background-size: cover; 
+  background: #93c8d2;
 }
 
 .designation {
