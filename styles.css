@@ -152,11 +152,11 @@ h3 ~ p {
   margin: 0; /* makes company and dates closer together, as well as degree and additional information in education */
 }
 
-.job {
+.project {
   display: none; /* by default, all jobs are set to not display */
 }
 
-.job.active {
+.project.active {
   display: block; /* when one job is called on, it displays */
 }
 
@@ -169,12 +169,12 @@ h3 ~ p {
 
 #left-slide {
   float: inline-start; /* allows itself to flow to the left of the work experience content */
-  margin-left: 2%;
+  margin-left: 1%;
 }
 
 #right-slide {
   float: inline-end; /* allows itslef to flow to the right of the work experience content */
-  margin-right: 2%;
+  margin-right: 1%;
 }
 
 /* Education */
