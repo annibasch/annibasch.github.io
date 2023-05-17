@@ -162,7 +162,8 @@ h3 ~ p {
 
 .slide-changer {
   font-size: 2rem;
-  margin: 3% auto; /* roughly, vertically aligns the slide change "buttons" */
+  /* margin: 3% auto;  */
+  /* roughly, vertically aligns the slide change "buttons" */
   cursor: pointer; /* makes the cursor change to a pointer so that the user knows they can click on it */
 }
 
