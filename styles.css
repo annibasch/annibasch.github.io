@@ -39,8 +39,7 @@ h2 {
 }
 
 .centered-content { /* centers the div with this class name with the background/screen */
-  max-width: 70em; 
-  /* about 950px */
+  max-width: 60em; /* about 950px */
   margin: 0 auto; /* sets the top and bottom margins to 0, and the right and left to half of the screen width miuns element width (ultimately centering it) */
   padding: 50px; /* "pushes" the content 50px more towards the center from all directions */
   overflow: auto; /* self-clears anytime I add a float to a "centered-content" section */
@@ -161,20 +160,19 @@ h3 ~ p {
 }
 
 .slide-changer {
-  font-size: 2rem;
-  /* margin: 3% auto;  */
-  /* roughly, vertically aligns the slide change "buttons" */
+  font-size: 5rem;
+  margin: 7.5% auto; /* roughly, vertically aligns the slide change "buttons" */
   cursor: pointer; /* makes the cursor change to a pointer so that the user knows they can click on it */
 }
 
 #left-slide {
-  float: inline-start; /* allows itself to flow to the left of the work experience content */
-  margin-left: 1%;
+  float: left; /* allows itself to flow to the left of the work experience content */
+  margin-left: 2%;
 }
 
 #right-slide {
-  float: inline-end; /* allows itslef to flow to the right of the work experience content */
-  margin-right: 1%;
+  float: right; /* allows itslef to flow to the right of the work experience content */
+  margin-right: 2%;
 }
 
 /* Education */
