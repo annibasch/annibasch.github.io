@@ -29,8 +29,9 @@
 
 <main> 
 	<section id = experience>
-		<div class=slide-changer id=left-slide onclick=changeSlide(-1)>&lang;</div>
+		
 		<div class=centered-content>
+			<div class=slide-changer id=left-slide onclick=changeSlide(-1)>&lang;</div>
 			<h2 style="color:white;">Work Experience</h2>
 			<div class=job>
 				<div class=col-narrow>
@@ -79,9 +80,10 @@
 					</ul>
 				</div>				
 			</div>
+		<div class=slide-changer id=right-slide onclick=changeSlide(1)>&rang;</div> 
 			
 		</div>
-		<div class=slide-changer id=right-slide onclick=changeSlide(1)>&rang;</div> 
+		
 	 
 	</section>
 </main>
@@ -129,11 +131,16 @@
 			<div class=col-wide>
 			</div>				
 		</div>
+		<div class="projects-navigation" style="width:100%">
+			<div class="projects-navigation-left" onclick="plusDivs(-1)">&#10094;</div>
+			<div class="projects-navigation-right" onclick="plusDivs(1)">&#10095;</div>
+			<span class="first-project dot" onclick="currentDiv(1)"></span>
+			<span class="second-project dot" onclick="currentDiv(2)"></span>
+			<span class="third-project dot" onclick="currentDiv(3)"></span>
+		</div>
 	</div>
 </section>
 
-<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
 
 <section id = education>
 	<div class=centered-content>
