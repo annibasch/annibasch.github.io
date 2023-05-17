@@ -39,7 +39,7 @@ h2 {
 }
 
 .centered-content { /* centers the div with this class name with the background/screen */
-  max-width: 60em; /* about 950px */
+  max-width: 70em; /* 60em is about 950px */
   margin: 0 auto; /* sets the top and bottom margins to 0, and the right and left to half of the screen width miuns element width (ultimately centering it) */
   padding: 50px; /* "pushes" the content 50px more towards the center from all directions */
   overflow: auto; /* self-clears anytime I add a float to a "centered-content" section */
